@@ -1,0 +1,38 @@
+.whole_layout {
+   margin-left: 10px;
+   margin-top: 20px;
+}
+
+.search_bg {
+  background-color: #339933;
+  min-height: 40px;
+  text-align:center;
+  font-weight: bold;
+}
+
+.button_field {
+   display:flex; 
+   justify-content: space-between; 
+   margin-top:10px; 
+}
+
+.exec_btn {
+    margin-top:8px;
+    width:45%;
+    background-color: #0070C0;
+    padding: 7px 0;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.back_btn {
+    margin-top:8px;
+    width:45%;
+    background-color: #0070C0;
+    padding: 7px 0; 
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    border : solid 2px #000;
+    font-size: 14px;
+}

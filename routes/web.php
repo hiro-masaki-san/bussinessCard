@@ -29,3 +29,10 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+Route::get('/list', 'App\Http\Controllers\PersonManageController@index');
+Route::post('/search', 'App\Http\Controllers\PersonManageController@search');
+Route::get('/add', 'App\Http\Controllers\PersonManageController@displayAddPage');
+Route::get('/edit/{pId}', 'App\Http\Controllers\PersonManageController@displayEditPage');
+Route::post('/store', 'App\Http\Controllers\PersonManageController@store');
+Route::post('/update', 'App\Http\Controllers\PersonManageController@update');
